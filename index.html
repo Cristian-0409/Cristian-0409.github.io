@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Geométrica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Área y Perímetro</h1>
+
+        <label for="figura">Selecciona una figura:</label>
+        <select id="figura" onchange="cambiarFigura()">
+            <option value="cuadrado">Cuadrado</option>
+            <option value="rectangulo">Rectángulo</option>
+            <option value="circulo">Círculo</option>
+        </select>
+
+        <div id="inputs-container">
+            <div id="lado-container">
+                <label for="lado">Lado:</label>
+                <input type="number" id="lado" placeholder="Ingrese el lado" required>
+            </div>
+
+            <div id="base-container">
+                <label for="base">Base:</label>
+                <input type="number" id="base" placeholder="Ingrese la base" required>
+            </div>
+
+            <div id="altura-container">
+                <label for="altura">Altura:</label>
+                <input type="number" id="altura" placeholder="Ingrese la altura" required>
+            </div>
+
+            <div id="radio-container">
+                <label for="radio">Radio:</label>
+                <input type="number" id="radio" placeholder="Ingrese el radio" required>
+            </div>
+        </div>
+
+        <div id="resultado-container">
+            <h2>Resultado:</h2>
+            <p id="area">Área: </p>
+            <p id="perimetro">Perímetro: </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
