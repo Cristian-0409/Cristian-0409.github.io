@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fcf9f9;
+    margin: 10;
+    padding: 10;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #6fc44e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 100px rgba(204, 64, 64, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#inputs-container {
+    display: grid;
+    gap: 10px;
+}
+
+#resultado-container {
+    margin-top: 20px;
+}
+
+#resultado-container h2 {
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    width: 10%;
+    padding: 10px; /* Ajusta este valor según tu preferencia */
+    margin: 20px auto; /* Centrar el botón */
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
